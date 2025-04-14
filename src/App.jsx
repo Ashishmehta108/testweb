@@ -1,4 +1,4 @@
-import {  useState } from "react";
+import { useState } from "react";
 import {
   Menu,
   X,
@@ -238,14 +238,14 @@ export default function RestaurantLanding() {
             {[
               {
                 name: "Specialty Burger",
-                price: "$12.99",
+                price: "₹129",
                 category: "Main Course",
                 image:
                   "https://plus.unsplash.com/premium_photo-1675252369719-dd52bc69c3df?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               },
               {
                 name: "Fresh Salad Bowl",
-                price: "$9.99",
+                price: "₹99",
                 category: "Starters",
                 image:
                   "https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -253,7 +253,7 @@ export default function RestaurantLanding() {
 
               {
                 name: "Artisan Pizza",
-                price: "$14.99",
+                price: "₹299",
                 category: "Main Course",
                 image:
                   "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
