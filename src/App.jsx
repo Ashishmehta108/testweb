@@ -138,12 +138,15 @@ export default function RestaurantLanding() {
                 Discover amazing dishes from the comfort of your home. Order now
                 and experience the best flavors in town.
               </p>
-              <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                <button className="bg-orange-500 text-white px-8 py-3 rounded-full font-medium hover:bg-orange-600 transition-colors flex items-center justify-center cursor-pointer">
+              <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0  sm:space-x-4">
+                <button className="bg-orange-500 text-white px-8 py-3 rounded-full font-medium hover:bg-orange-600 transition-colors flex items-center group justify-center cursor-pointer">
                   Order now
-                  <ChevronRight size={20} className="ml-2" />
+                  <ChevronRight
+                    size={20}
+                    className="ml-2 group-hover:translate-x-1 transition all ease-in-out duration-300"
+                  />
                 </button>
-                <button className="border border-gray-300 text-gray-800 px-8 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors cursor-pointer">
+                <button className="border border-gray-300 text-gray-800 px-8 py-3 rounded-full font-medium hover:bg-neutral-100 transition-colors cursor-pointer">
                   View Menu
                 </button>
               </div>
